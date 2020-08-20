@@ -1,0 +1,8 @@
+-All the skills are unchanged. Old skills are NOT recovered.
+-[Proximity Zapper, Proximity Explosive, Water Bottle, Mushroom Soup and Web] can
+ all be used by left cliking normal [Redstone Lamp, TNT, Water Bottle, Mushroom Stew, 
+ and Cobweb] respectively
+-You can open the skill page by right-clicking on a Bookshelf while where a full set
+ of Armor
+-I removed the Energy bar taking over the EXP bar, however ENERGY STILL EXISTS!
+-Free Mineplex Anti-Xray included

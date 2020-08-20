@@ -1,0 +1,27 @@
+Instructions:
+-You can open the skill page by right-clicking on a Bookshelf while wearing a full
+ set of Armor
+-You can craft Chainmail armor using Iron Gates!
+-1.7 (and maybe 1.8) only. Updating takes some effort (thanks bukkit for changing
+ changing functions...), but I can create an updated version if you want.
+
+Gameplay Notes:
+-All skills are unchanged. Old skills are NOT recovered, except (regular) Quick
+ Recovery.
+-The Energy bar no longer takes over the EXP bar, however energy still exists!
+-Item section/Item tokens removed (you can't get free weapons and items)
+-[Proximity Zapper, Proximity Explosive, Water Bottle, Mushroom Soup and Web] can
+ all be used by left cliking normal [Redstone Lamp, TNT, Water Bottle, Mushroom Stew, 
+ and Cobweb] respectively.
+
+Technical Notes:
+-Free Mineplex Anti-Xray included (you can disable in spigot.yml)
+
+Noteable problems:
+-Some skills may not work against mobs (ex. Defensive Stance)
+-Block Toss duplicate exploit
+-Creepers/etc. won't grief because of mechanics relating to reserving block structure.
+-Picking up books in the skill page will save if you place it in your inventory, then
+ in a chest (but it doesn't do anything except take up space).
+-Maybe more, I didn't test it all...
+

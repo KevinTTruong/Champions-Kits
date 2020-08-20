@@ -1,0 +1,6 @@
+Arcade - Added line to link with EnchantmentTableListener in constructor
+CustomBuildToken - remove free items in default kit
+SkillFactory - 
+-Removed Fitness, Recharge, and Null Blade
+[Various Skills] - Removed energy cost
+CustomBuildTokens - Item tokens reduced to 6

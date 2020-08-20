@@ -1,0 +1,3 @@
+name: ChampionsKits
+main: nautilus.game.arcade.Arcade
+version: 1.0

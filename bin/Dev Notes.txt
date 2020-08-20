@@ -1,0 +1,38 @@
+CoreClient Manager - Remove ArcadeManager in parameter of constructor (it didn't do anything anyway)
+
+ToDo
+-Find Origin of Right Click
+ -Locate Listener OR Create Own
+-Realign to any Enchanting Table w/ condition of already worn Armor
+ -If right click enchant:
+    if where [Armor], new Kit[Knight].Selected(Player)
+    Manager.openClassShop(Player) OR Initialize your own ClassCombatShop (.attemptShopOpen(Play))
+-Remove any unnecessary files to become standalone pluggin
+
+ -2nd round: remove yellow underscores
+ -Remove log in Arcade
+
+-Problems
+ -Comment ArcadeManager's LoadFiles
+  -Ready to test/update to latest version!
+ -Load/Save: Last active kit
+ 
+ -(Mild) Picking up books in Skill Page
+ -(Mild) Inventory in shop has sound when clicked (buttonmap?)
+-Update to latest version
+
+*Notable Classes
+***ItemFactory
+ -ClientClass (calls getGameClass() [gets PvpClass from ClientClass])
+ -PvpClass
+ -ClassCombatShop (Calls open shop)
+ -Kit[Class]
+ -CustomBuildToken: Locations of maximum item/skill tokens
+
+ItemFactory: Remove Free weapons
+mineplex>core>energy: Remove system
+Watch: mineplex>core>packethandler
+Watch: game>core>combat>CombatLog
+Watch: serverConfig (mineplex>core)
+Watch: "merge" methods in "Game"
+Watch: PacketHandler (Arcade)
